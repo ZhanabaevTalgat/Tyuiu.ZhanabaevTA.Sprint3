@@ -17,7 +17,7 @@ namespace Tyuiu.ZhanabaevTA.Sprint3.Task0.V17
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу используя цикл for, которая вычисляет сумму ряда по  *");
-            Console.WriteLine("* формуле s = Σ cos(i) * 1/2  ( конечное слагаемое = 10, начальное = i )  *");
+            Console.WriteLine("* формуле s = E cos(i) * 1/2  ( конечное слагаемое = 10, начальное = i )  *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
