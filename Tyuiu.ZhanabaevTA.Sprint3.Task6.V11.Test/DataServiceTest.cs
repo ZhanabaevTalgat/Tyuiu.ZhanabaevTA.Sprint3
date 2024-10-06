@@ -11,7 +11,7 @@ namespace Tyuiu.ZhanabaevTA.Sprint3.Task6.V11.Test
             int start = 10; int end = 19;
             DataService ds = new DataService();
             int result = ds.GetSumTheDivisors(start, end);
-            Assert.AreEqual(start, result);
+            Assert.AreEqual(9, result);
         }
     }
 }
