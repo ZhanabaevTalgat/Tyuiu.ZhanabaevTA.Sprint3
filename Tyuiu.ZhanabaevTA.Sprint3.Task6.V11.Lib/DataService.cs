@@ -9,7 +9,7 @@ namespace Tyuiu.ZhanabaevTA.Sprint3.Task6.V11.Lib
             int SumTheDivisors = 0;
             for (int x = startValue; x <= stopValue; x++)
             {
-                for (int d = 10; d < x; d++)
+                for (int d = 11; d <= x; d++)
                 {
                     if (x % d == 0)
                     {
