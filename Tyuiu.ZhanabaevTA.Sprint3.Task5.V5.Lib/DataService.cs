@@ -11,7 +11,7 @@ namespace Tyuiu.ZhanabaevTA.Sprint3.Task5.V5.Lib
             {
                 for (int j = startValue2; j <= stopValue2; j++)
                 {
-                    sumSeries += x / Math.Sin(j);
+                    sumSeries = sumSeries + x / Math.Sin(j);
                 }
             }
 
