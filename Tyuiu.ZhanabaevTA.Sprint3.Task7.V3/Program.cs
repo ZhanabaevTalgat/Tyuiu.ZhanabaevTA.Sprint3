@@ -33,14 +33,19 @@ namespace Tyuiu.ZhanabaevTA.Sprint3.Task7.V3
 
             DataService ds = new DataService();
             double[] res = ds.GetMassFunction(start, end);
-            Console.WriteLine("+---------------+---------------+");
-            Console.WriteLine("|       X       |      f(x)     |");
-            Console.WriteLine("+---------------+---------------+");
-            for (int i = 0; i <= res.Length - 1; i++)
+            Console.WriteLine("+-------------+-------------+");
+            Console.WriteLine("|      X      |     f(x)    |");
+            Console.WriteLine("+-------------+-------------+");
+
+            for (int i = 0; i <= res.Length - 1; i++) // Перебор значений из массива res
             {
-                Console.WriteLine("|{0,5:d}          |{1,5:f2}          |", start, res[i]);
+                // d - формат для целочисленных чисел, f - дробных
+                Console.WriteLine("|{0,5:d}        |{1,6:f2}       |", start, res[i]);
                 start++;
             }
+
+            Console.WriteLine("+-------------+-------------+");
+
             Console.ReadKey();
         }
     }
